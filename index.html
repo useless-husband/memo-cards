@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>記憶卡</title>
+  <meta name="description" content="間隔重複背單字：FSRS 與 SM-2 排程，可離線使用、可加到主畫面。">
+  <meta name="theme-color" content="#f5f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141516" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="記憶卡">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">跳到主要內容</a>
+  <header class="top">
+    <a class="brand" href="#/">記憶卡</a>
+    <nav aria-label="主選單">
+      <a href="#/" data-nav="decks">牌組</a>
+      <a href="#/stats" data-nav="stats">統計</a>
+      <a href="#/settings" data-nav="settings">設定</a>
+    </nav>
+  </header>
+  <div id="banner" role="status" aria-live="polite"></div>
+  <main id="app" tabindex="-1">
+    <noscript><p>需要開啟 JavaScript 才能使用記憶卡。</p></noscript>
+  </main>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
